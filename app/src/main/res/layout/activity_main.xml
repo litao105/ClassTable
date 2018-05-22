@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/classbackground">
+    <include layout="@layout/class_title"></include>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="65dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:text="星期一"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textView1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="星期一" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:text="星期二"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="星期二" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:text="星期三"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="星期三" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:text="星期四"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="星期四" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:text="星期五"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="星期五" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="1-2"
+        android:gravity="center"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:text="1-2" />
+
+    <EditText
+        android:id="@+id/class11"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="JAVA"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:text="JAVA" />
+
+    <EditText
+        android:id="@+id/class12"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/class11"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/class13"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="AJAX"
+        app:layout_constraintStart_toEndOf="@+id/class12"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:text="AJAX" />
+
+    <EditText
+        android:id="@+id/class14"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Linux"
+        app:layout_constraintStart_toEndOf="@+id/class13"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:text="Linux" />
+
+    <EditText
+        android:id="@+id/class15"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/class14"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="3-4"
+        android:gravity="center"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:text="3-4" />
+
+    <EditText
+        android:id="@+id/class21"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/class11" />
+
+    <EditText
+        android:id="@+id/class22"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="XML"
+        app:layout_constraintStart_toEndOf="@+id/class21"
+        app:layout_constraintTop_toBottomOf="@+id/class12"
+        tools:text="XML" />
+
+    <EditText
+        android:id="@+id/class23"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="微机原理"
+        app:layout_constraintStart_toEndOf="@+id/class22"
+        app:layout_constraintTop_toBottomOf="@+id/class13"
+        tools:text="微机原理" />
+
+    <EditText
+        android:id="@+id/class24"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="JAVA"
+        app:layout_constraintStart_toEndOf="@+id/class23"
+        app:layout_constraintTop_toBottomOf="@+id/class14"
+        tools:text="JAVA" />
+
+    <EditText
+        android:id="@+id/class25"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/class24"
+        app:layout_constraintTop_toBottomOf="@+id/class15" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="5-6"
+        android:gravity="center"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        tools:text="5-6" />
+
+    <EditText
+        android:id="@+id/class31"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/class21"
+        tools:text="" />
+
+    <EditText
+        android:id="@+id/class32"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="足球"
+        app:layout_constraintStart_toEndOf="@+id/class31"
+        app:layout_constraintTop_toBottomOf="@+id/class22"
+        tools:text="足球" />
+
+    <EditText
+        android:id="@+id/class33"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/class32"
+        app:layout_constraintTop_toBottomOf="@+id/class23"
+        tools:text="" />
+
+    <EditText
+        android:id="@+id/class34"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="英语"
+        app:layout_constraintStart_toEndOf="@+id/class33"
+        app:layout_constraintTop_toBottomOf="@+id/class24"
+        tools:text="英语" />
+
+    <EditText
+        android:id="@+id/class35"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/class34"
+        app:layout_constraintTop_toBottomOf="@+id/class25" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="7-8"
+        android:gravity="center"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        tools:text="7-8" />
+
+    <EditText
+        android:id="@+id/class41"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/class31"
+        tools:text="" />
+
+    <EditText
+        android:id="@+id/class42"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="社团值班"
+        app:layout_constraintStart_toEndOf="@+id/class41"
+        app:layout_constraintTop_toBottomOf="@+id/class32"
+        tools:text="社团值班" />
+
+    <EditText
+        android:id="@+id/class43"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/class42"
+        app:layout_constraintTop_toBottomOf="@+id/class33"
+        tools:text="" />
+
+    <EditText
+        android:id="@+id/class44"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Android"
+        app:layout_constraintStart_toEndOf="@+id/class43"
+        app:layout_constraintTop_toBottomOf="@+id/class34"
+        tools:text="Android" />
+
+    <EditText
+        android:id="@+id/class45"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="CAD"
+        app:layout_constraintStart_toEndOf="@+id/class44"
+        app:layout_constraintTop_toBottomOf="@+id/class35"
+        tools:text="CAD" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="晚"
+        android:gravity="center"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        tools:text="晚" />
+
+    <EditText
+        android:id="@+id/class51"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/class41"
+        tools:text="" />
+
+    <EditText
+        android:id="@+id/class52"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="值日"
+        app:layout_constraintStart_toEndOf="@+id/class51"
+        app:layout_constraintTop_toBottomOf="@+id/class42"
+        tools:text="值日" />
+
+    <EditText
+        android:id="@+id/class53"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/class52"
+        app:layout_constraintTop_toBottomOf="@+id/class43"
+        tools:text="" />
+
+    <EditText
+        android:id="@+id/class54"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/class53"
+        app:layout_constraintTop_toBottomOf="@+id/class44" />
+
+    <EditText
+        android:id="@+id/class55"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/class54"
+        app:layout_constraintTop_toBottomOf="@+id/class45" />
+    <!--
+    <Button
+        android:id="@+id/buttonedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="编辑"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="190  dp"
+        tools:ignore="MissingConstraints" />
+    -->
+
+</android.support.constraint.ConstraintLayout>
